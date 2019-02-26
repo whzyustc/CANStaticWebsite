@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".box").hover(function(){
+                    $(this).animate({"bottom":"20px"});
+                },
+                function(){$(this).animate({"bottom":"0px"});}
+            )});
+        </script>
+        <style>
+            .box{
+                background-color: yellow;
+                width: 600px;
+                height:200px;
+                position:relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">adb
+
+        </div>
+        <div class="box">adb
+
+        </div>
+        <div class="box">adb
+
+        </div>
+    </body>
+</html>

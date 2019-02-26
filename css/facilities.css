@@ -1,0 +1,26 @@
+﻿.fac
+{
+    width:398px;
+    height:450px;
+    float:left;
+    border:1px grey solid;
+    text-align:center;
+}
+.fac img
+{
+    max-width:350px;
+    max-height:400px;
+    position:center;
+    margin:20px;
+}
+.tit 
+{
+    font-size:26px;
+    background:#cccccc;
+    text-align:center;
+    width:1200px;
+}
+div#own
+{
+    height:1600px;
+}

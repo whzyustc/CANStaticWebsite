@@ -1,0 +1,61 @@
+﻿.name{
+    font-size:20px;
+}
+.namepinyin {
+    font-size: 14px;
+    color:grey;
+}
+div#contents {
+    height: 8000px;
+    /*300px 一行*/
+}
+
+.personalinformation
+{
+    float:left;
+    height:250px;
+    width:480px;
+    padding:16px 0;
+    border-top:2px solid #666666;
+}
+
+    .personalinformation img 
+    {
+        float:left;
+        width:200px;
+        height:250px;
+    }
+
+    .personalinformation ul 
+    {
+        padding-left:0;
+        text-align:left;
+        margin:16px;
+        margin-left:0;
+        margin-right:0;
+    }
+    .personalinformation .information
+    {
+        height:250px;
+        width:280px;
+        float:left;
+    }
+    .personalinformation li
+    {
+        list-style-type:none;
+        
+        margin:12px;
+    }
+    .graduation{
+        height:46px;
+        margin-right:0;
+    }
+    .stat
+    {
+        height:32px;
+        width:960px;
+       font-size:24px;
+        float:left;
+        text-align:center;
+        background-color:#cccccc;
+    }

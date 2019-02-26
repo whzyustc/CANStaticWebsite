@@ -1,0 +1,128 @@
+﻿/*-----overall-----*/
+*
+	{
+	margin:auto;
+	padding:0;
+	border:0;
+	}
+body
+	{
+        background-color:#eef3f7;
+	text-align:center;
+	font-family:verdana,sans-serif,'微软雅黑','宋体';
+	font-size:16px;
+	}
+
+/*-----layout------*/
+html 
+{
+	min-width:1200px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+div#header
+{
+    position: relative;
+	width:1200px;
+	height:96px;
+}
+div#namespace
+{
+    width:600px;
+    height:96px;
+    float:left;
+}
+p#sysname 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:30px;
+    font-size:30px;
+}
+
+div#header img
+{
+    float:left;
+}
+div#tab1 
+{
+	width:1200px;
+	height:48px;
+}
+div#tab1 ul#menu
+{
+	height:48px;
+	background:#cccccc;
+}
+div#tab1 ul#menu li
+{
+	display:block;
+	float:left;
+	height:48px;
+	width:200px;
+	font-size:22px;
+	line-height:48px;
+	text-align:center;
+}
+div#tab1 ul#menu li a
+{
+	display:block;
+	text-align:center;
+	height:48px;
+	width:200px;
+	font-size:16px;
+	text-decoration: none;
+}
+div#album 
+{
+    width:174px;
+}
+
+div#tab1 a:link{color:#004ca1;background-color:rgba(255, 255, 255, 0.5);}
+div#tab1 a:hover {color:#004ca1;background-color:rgba(0,0,0,0.2);}
+
+div#nav {
+    float: right;
+    display: block;
+    width: 190px;
+    padding: 1em 1em 1em 1em;
+    margin: 0;
+}
+
+div#footer
+{
+    width:1200px;
+    height:60px;
+    border-top:1px solid grey;
+}
+
+div#contents {
+    margin: auto;
+    width: 1200px;
+    margin-top: 20px;
+    min-height:200px;
+}
+
+div#nav {
+    padding: 0;
+    width: 222px;
+}
+
+    div#nav p {
+        background-color: #CCCCCC;
+        font-size: 22px;
+    }
+
+    div#nav ul {
+        padding: 0 80px;
+        list-style-type: none;
+        text-align: left;
+    }
+
+        div#nav ul li {
+            list-style-type: none;
+            height: 24px;
+        }
+
+    div#nav a {
+        text-decoration: none;
+    }
