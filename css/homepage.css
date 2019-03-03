@@ -83,7 +83,7 @@ div#ttttt,div#more,.pub
 }
 div#ttttt
 {
-    width:70%;
+    width:80%;
     margin:auto;
     font-size: 24px;
 }
@@ -110,9 +110,17 @@ div a
 }
 div#more
 {
-    width:30%;
+    width:5%;
     margin:auto;
-    font-size: 24px;
+    padding:2px 4px;
+    font-size: 16px;
+    background-color:rgba(138,23,21,0.8);
+    border-radius: 12px;
+    color:white;
+    font-weight:bold;
+    font-style:none;
+    text-decoration: none;
 }
+
 
 
