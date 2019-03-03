@@ -154,20 +154,24 @@
     
     <script>
         $(document).ready(function(){
-            $(".pub").hover(function(){
-                $(this).animate({"bottom":"20px"});
+
+            $(".pub").mouseenter(function(){
+                $(this).animate({"bottom":"20px"},100);
                 $(this).css("background-color","rgba(255,255,255,0.5)");
                /* $(paperpublication).css("overflow","scroll");*/
                 $(this).css("box-shadow","#888888 0px 0px 10px 5px");
 
                 //console.log(this);
-            },
-            function(){$(this).animate({"bottom":"0px"});
+            });
+
+            $(".pub").mouseleave(function(){
+                $(this).animate({"bottom":"0px"},200);
                 $(this).css("background-color","#eef3f7");
               /*  $(paperpublication).css("overflow","hidden");*/
                 $(this).css("box-shadow","none");
-                }
-        )});
+                });
+
+            });
 
     </script>
     <div id="footer">
