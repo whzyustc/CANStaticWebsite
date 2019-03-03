@@ -92,7 +92,8 @@ div#footer
 {
     width:1200px;
     height:60px;
-    border-top:1px solid grey;
+    
+    border-top:1px solid rgba(138,23,21,.4);
 }
 
 div#contents {
@@ -123,6 +124,13 @@ div#nav {
             height: 24px;
         }
 
-    div#nav a {
-        text-decoration: none;
-    }
+a
+{
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    text-decoration: underline;
+}

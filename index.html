@@ -75,7 +75,7 @@
         <div id="paper">
             <div id="papertitle">
             <div id="ttttt">
-                Latest Publications.
+                Latest Publications
                 </div>
             <div id="more">MORE
                 </div>
@@ -104,14 +104,14 @@
             <div id="news">
                 <div id="tttt2">News</div>
                 <ul id="neww">
-                    <li><div class="neww">欢迎18级研究生韩霄、国文馨、王秋萍、颜牧雨加入   2018/9/01</div></li>
-                    <li><div class="neww">欢迎博士后葛骁、杜俊毅、王志远、胡宜栋、熊灿、杨佳、周霄、祝泽周加入   2018/2</div></li>
-                    <li><div class="neww">欢迎18级博士生薛正刚加入   2018/9/01</div></li>
-                    <li><div class="neww"><a href="http://news.ustc.edu.cn/xwbl/201711/t20171102_288775.html">国家重点研发计划纳米科技重点专项青年项目“原子尺度纳米催化剂的结构调控及小分子高效活化研究”项目实施方案研讨会暨项目启动会</a>     2017/11/3</div></li>
-                    <li><div class="neww">欢迎17级研究生王文玉、孙荣博、陈敏、晋本金、周方耀加入   2017/9/01</div></li>
-                    <li><div class="neww">欢迎17级博士生赵亚飞、周煌加入   2017/9/01</div></li>
-                    <li><div class="neww">欢迎博士后加入李智君、屈云腾、杨正坤、周奇加入   2017/9/01</div></li>
-                <li><div class="neww">实验室成员前往北京参加China nano会议  2017/8/29</div>
+                    <li><div class="neww">欢迎18级研究生韩霄、国文馨、王秋萍、颜牧雨加入   <span class="newstime">2018/9/01</span></div></li>
+                    <li><div class="neww">欢迎博士后葛骁、杜俊毅、王志远、胡宜栋、熊灿、杨佳、周霄、祝泽周加入   <span class="newstime">2018/2</span></div></li>
+                    <li><div class="neww">欢迎18级博士生薛正刚加入   <span class="newstime">2018/9/01</span></div></li>
+                    <li><div class="neww"><a href="http://news.ustc.edu.cn/xwbl/201711/t20171102_288775.html">国家重点研发计划纳米科技重点专项青年项目“原子尺度纳米催化剂的结构调控及小分子高效活化研究”项目实施方案研讨会暨项目启动会</a>     <span class="newstime">2017/11/3</span></div></li>
+                    <li><div class="neww">欢迎17级研究生王文玉、孙荣博、陈敏、晋本金、周方耀加入   <span class="newstime">2017/9/01</span></div></li>
+                    <li><div class="neww">欢迎17级博士生赵亚飞、周煌加入   <span class="newstime">2017/9/01</span></div></li>
+                    <li><div class="neww">欢迎博士后加入李智君、屈云腾、杨正坤、周奇加入   <span class="newstime">2017/9/01</span></div></li>
+                <li><div class="neww">实验室成员前往北京参加China nano会议  <span class="newstime">2017/8/29</span></div>
 </li>
 
                     </ul>
@@ -120,15 +120,15 @@
         </div>
         <div id="contactinformation">
             <div id="ccf">Contact information</div>
+            
+            <div id="ccfimg"><img src="images/wyn.png" title="wuyuen"><p id="name">Yuen Wu</p></div>
+            <div id="ccftext">
             <ul>
-                <li><img src="images/wyn.png" title="wuyuen">Yuen Wu</li>
-                <li>96 Jinzhai Road, Hefei, Anhui 230026, P.R. China </li>
+                <li>Education:2005.09–2009.07 B.S. Tsinghua University                </li>
+                <li> 2009.07–2014.07 Ph.D. Tsinghua University                </li>
                 <li><a href="tel:+86-13685510846">Tel: +86-13685510846 (Cell)</a>; <a href="tel:0551-63601600">0551-63601600 (work)</a></li>
-                <li>Education:</br>2005.09–2009.07
-                    </br>B.S. Tsinghua University
-                    </br></br>2009.07–2014.07    </br>Ph.D. Tsinghua University
-</li>
-                <li>E-mail: yuenwu@ustc.edu.cn </li>
+                <li><a href="mailto:yuenwu@ustc.edu.cn">E-mail: yuenwu@ustc.edu.cn</a> </li>
+                <li>96 Jinzhai Road, Hefei, Anhui 230026, P.R. China </li>
 
                <!-- <li><img src="images/hx.png" title="hongxun">Xun Hong</li>
                 <li>Tel: +86-13966670058(Cell); 0551-63601600 (work)</li>
@@ -142,6 +142,7 @@
                 <li>E-mail: hongxun@ustc.edu.cn </li>
                    -->
             </ul>
+            </div>
         </div>
 
 
@@ -155,18 +156,15 @@
         $(document).ready(function(){
 
             $(".pub").mouseenter(function(){
-                $(this).animate({"bottom":"20px"},100);
+                $(this).animate({"bottom":"20px"},200);
                 $(this).css("background-color","rgba(255,255,255,0.5)");
-               /* $(paperpublication).css("overflow","scroll");*/
                 $(this).css("box-shadow","#888888 0px 0px 10px 5px");
 
-                //console.log(this);
             });
 
             $(".pub").mouseleave(function(){
-                $(this).animate({"bottom":"0px"},200);
+                $(this).animate({"bottom":"0px"},100);
                 $(this).css("background-color","#eef3f7");
-              /*  $(paperpublication).css("overflow","hidden");*/
                 $(this).css("box-shadow","none");
                 });
 
@@ -198,6 +196,7 @@
                     window.open("publications.html");
                 }
             );
+
             
 
     </script>

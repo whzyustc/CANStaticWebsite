@@ -2,7 +2,6 @@
 {
     position: relative;
 }
-
 div#fullbody
 {
     width: 1200px;
@@ -70,7 +69,7 @@ div#contents
 div#papertitle,div#paperpublication
 {
     width:100%;
-}
+} 
 div#papertitle
 {
     height:30px;
@@ -79,13 +78,52 @@ div#papertitle
 div#ttttt,div#more,.pub
 {
     float:left;
-    color: rgba(138,23,21,0.8);
+    color: rgba(138,23,21,1);
 }
-div#ttttt
+div#ttttt 
 {
     width:80%;
     margin:auto;
     font-size: 24px;
+}
+div#tttt2
+{
+    width:100%;
+    margin:20px 0px;
+    font-size: 24px;
+    color: rgba(138,23,21,0.8);
+    height:30px;
+    border-bottom: 2px  solid  rgba(138,23,21,.4)
+}
+div#news
+{
+    height:300px;
+}
+.neww
+{
+    width:550px;
+    height:48px;
+    padding:5px 25px;
+    color: rgba(138,23,21,1);
+    float: left;
+    text-align: left;
+}
+.neww a
+{
+    
+    color: rgba(138,23,21,1);
+}
+.neww span
+{
+    padding:2px;
+    border-radius: 12px;
+    font-size:12px;
+}
+.neww:hover span
+{
+    background-color: rgba(138,23,21,0.8);
+    transition: background-color 0.5s;
+    color: white;
 }
 div#paperpublication
 {
@@ -122,5 +160,52 @@ div#more
     text-decoration: none;
 }
 
+div#contactinformation
+{
+    height:364px;
+    color: black;
+    background-color: rgb(187, 40, 40)；
+    
+}
+div#ccf
+{
+    width: 100%;
+    color: rgba(138,23,21,0.8);
+    height:30px;
+    font-size: 24px;
+    border-bottom: 2px  solid  rgba(138,23,21,.4)
 
-
+}
+div ul
+{
+    margin:20px 0px;
+}
+div#contactinformation li
+{
+    width:550px;
+    padding:4px 25px;
+    min-height: 48px;
+}
+div#ccfimg 
+{
+    padding: 50px 25px;
+    float:left;
+    width: 300px;
+    background-color: #e2e6ea;
+}
+div#ccfimg p#name
+{
+    color:black;
+    font-size: 24px;
+}
+div#ccftext
+{
+    background-color: #e2e6ea;
+    text-align: left;
+    float:left;
+    width:850px;
+    height: 332px;
+}
+div#ccftext a{
+    color:black;
+}
